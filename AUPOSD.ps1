@@ -13,7 +13,7 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSD Cloud AUP"
 #Start-OSDCloud -OSLanguage fr-fr -OSName 'Windows 11 22H2 x64' -OSLicense Volume -OSEdition Pro -Zti
-Start-OSDCloud -OSLanguage fr-fr -OSVersion "Windows 10" -OSBuild 22H2 -OSEdition Education -ZTI
+Start-OSDCloud -OSLanguage fr-fr -OSVersion "Windows 10" -OSBuild 21H2 -OSEdition Education -ZTI
 
 Write-Host -ForegroundColor Green "Restarting ..."
 start-sleep -Seconds 5
