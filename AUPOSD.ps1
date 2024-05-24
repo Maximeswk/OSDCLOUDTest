@@ -12,8 +12,8 @@ Write-Host -ForegroundColor Green "Importing OSD Powershell Module"
 Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSD Cloud AUP"
-#Start-OSDCloud -OSLanguage en-us -OSVersion "Windows 11" -OSBuild 22H2 -OSEdition Education -ZTI
-Start-OSDCloud -OSLanguage fr-fr -OSName 'Windows 10 22H2 x64' -OSLicense Retail -OSEdition Pro -Zti
+Start-OSDCloud -OSLanguage en-us -OSVersion "Windows 10" -OSBuild 22H2 -OSEdition Education -ZTI
+#Start-OSDCloud -OSLanguage fr-fr -OSName 'Windows 10 22H2 x64' -OSLicense Retail -OSEdition Pro -Zti
 
 Write-Host -ForegroundColor Green "Restarting ..."
 start-sleep -Seconds 5
